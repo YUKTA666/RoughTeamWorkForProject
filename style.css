@@ -44,7 +44,7 @@ nav a {
 }
 
 .nav-bar a:hover {
-  padding:20px;
+  padding: 14px 16px;
   background-color: #ffffff;
   color: black;
 }
