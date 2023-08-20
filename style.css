@@ -44,8 +44,8 @@ nav a {
 }
 
 .nav-bar a:hover {
-  padding: 14px 16px;
-  background-color: #ffffff;
+  padding:15px;
+  background-color: rgb(90, 237, 136);
   color: black;
 }
 
@@ -161,6 +161,7 @@ footer {
 /* Style the back side */
 .flip-card-back {
   background-color: #333;
+  padding: 10px;
   color: white;
   transform: rotateY(180deg);
 }
@@ -228,4 +229,17 @@ footer {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.form-check{
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.form-check:hover{
+  color: white;
+  background-color: rgb(141, 145, 142);
 }
